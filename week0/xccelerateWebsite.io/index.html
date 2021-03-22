@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./css/fixed.css">
+
+    <title>Pon Chin Ching</title>
+
+    <script>
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+
+          if (currentScrollPos > 80) {
+            document.getElementById("mobile-navbar").style.top = "-56px";
+            document.getElementById("mobile-navbar-toggler").style.top = "-56px";
+            document.getElementById("desktop-navbar").style.top = "-40px";
+          } else {
+            document.getElementById("mobile-navbar").style.top = "0";
+            document.getElementById("mobile-navbar-toggler").style.top = "0.5rem";
+            document.getElementById("desktop-navbar").style.top = "0";
+          }
+        }
+    </script>
+
+  </head>
+
+  <body data-spy="scroll" data-target="#navbarResponsive">
+
+<!--- Navigation -->
+    <nav class="d-none d-sm-block navbar navbar-expand-sm navbar-dark bg-dark fixed-top" id="desktop-navbar">
+      <div class="collapse navbar-collapse justify-content-sm-center flex-column" id="navbarResponsive">
+        <div class="navbar-brand mr-0" href="#">Pon Chin Ching</a></div>
+        <div class="navbar-nav align-items-center">
+          <div class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></div>
+          <div class="nav-item"><a class="nav-link" href="#about">ABOUT</a></div>
+          <div class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></div>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="d-sm-none navbar justify-content-center navbar-dark bg-dark fixed-top" id="mobile-navbar">
+      <div class="navbar-brand mr-0" href="#">Pon Chin Ching</a></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" id="mobile-navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="navbar-nav align-items-center">
+          <div class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#portfolio">PORTFOLIO</a></div>
+          <div class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#about">ABOUT</a></div>
+          <div class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#contact">CONTACT</a></div>
+        </div>
+      </div>
+    </nav>
+
+<!--- End Navigation -->
+
+
+<!--- Start Landing Page Section -->
+<div class="landing">
+  <div class="home-wrap">
+    <div class="home-inner">
+    </div>
+  </div>
+</div>
+
+<div class="caption text-center">
+  <h1>Pon Chin Ching</h1>
+  <h3>Visual Effects Artist</h3>
+  <a class="d-none d-sm-inline-block btn btn-outline-light btn-lg" href="#demoreel-desktop">PORTFOLIO</a>
+  <a class="d-inline-block d-sm-none btn btn-outline-light btn-lg" href="#demoreel-mobile">PORTFOLIO</a>
+</div>
+
+<!--- End Landing Page Section -->
+
+
+<!--- Start DEMO REEL Section -->
+
+<div id="demoreel-desktop" class="d-none d-sm-block offset">
+  <div class="vid-section">
+    <div class="responsive-vid">
+      <div id="player"></div>
+    </div>
+  </div>
+</div>
+
+<div id="demoreel-mobile" class="d-block d-sm-none offset">
+  <div>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/l2tjycGbQyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+<!--- End DEMO REEL Section -->
+
+
+<!--- Start PORTFOLIO Section -->
+<div id="portfolio" class="offset">
+  <div class="container">
+    <div class="spacing d-none d-sm-block" style="height: 5rem;"></div>
+    <div class="spacing d-block d-sm-none" style="height: 3rem;"></div>
+    <h3 class="heading text-center">PORTFOLIO</h3>
+    <div class="heading-underline"></div>
+    <div class="col-12 col-md-12 subheader">
+      <h4 class="heading">COMPOSITING</h4>
+    </div>
+    <div class="row threeColumn">
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.youtube.com/embed/l2tjycGbQyU" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='http://i3.ytimg.com/vi/l2tjycGbQyU/maxresdefault.jpg'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/VgU7i6FkJoSjwcossI/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Matchmove & CG Compositing</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </a>
+      </article>
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.youtube.com/embed/VW2sle5fOt4" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='http://i3.ytimg.com/vi/VW2sle5fOt4/maxresdefault.jpg'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/RIGdZudAcjHXP5k6cR/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Greenscreen Keying</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.youtube.com/embed/Spf0yV_2QME" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='http://i3.ytimg.com/vi/Spf0yV_2QME/maxresdefault.jpg'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/jngtjlyYjpd3Tp9h4p/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">CG Compositing</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 col-md-12 subheader">
+      <h4 class="heading">MATTE PAINTING</h4>
+    </div>
+    <div class="row threeColumn">
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.youtube.com/embed/dAFwN3f9hUM" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='http://i3.ytimg.com/vi/dAFwN3f9hUM/maxresdefault.jpg'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/Pm9DTT7OfhuKaZqYge/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Animated Shot</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.youtube.com/embed/qTfFaIAJZx8" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='https://img.youtube.com/vi/qTfFaIAJZx8/mqdefault.jpg'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/hWviSANG3FH5ArI6Ho/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Breakdown 1</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.youtube.com/embed/Wv4kwcLWcs4" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='https://img.youtube.com/vi/Wv4kwcLWcs4/maxresdefault.jpg'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/l3ymvpyZTJxFUTExMG/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Breakdown 2</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 col-md-12 subheader">
+      <h4 class="heading">DIGITAL LIGHTING & RENDERING</h4>
+    </div>
+    <div class="row threeColumn">
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.youtube.com/embed/elLzZikfZ2Q" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='https://img.youtube.com/vi/elLzZikfZ2Q/maxresdefault.jpg'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/H3MoydLllANX81h72c/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Photorealistic Rendering</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.youtube.com/embed/RVgW-GFUWBk" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='https://img.youtube.com/vi/RVgW-GFUWBk/maxresdefault.jpg'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/jqg09hzYb58sFEPlYN/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Mood Match Rendering</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="col-12 col-md-12 subheader">
+      <h4 class="heading">P5.JS SKETCHES</h4>
+    </div>
+    <div class="row threeColumn">
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.openprocessing.org/sketch/926377" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='./img/musicvisualizer.png'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/PhHjymPQsTPZuyRoVk/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Music Visualizer</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-4 subArticle">
+        <div class="thumbnail" data-toggle="modal" data-src="https://www.openprocessing.org/sketch/879361" data-target="#myModal">
+          <img class="img-fluid w-100 rounded" id="static-preview" src='./img/colordodge.png'/>
+          <img class="img-fluid w-100 rounded" id="live-preview" src='https://media.giphy.com/media/j3PlvX9Nrr4qaULsLH/giphy.gif'/>
+          <div class="content">
+            <h4 class="projectTitle">Color Dodge Game</h4>
+            <!-- <time>June 12, 2020</time> -->
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+  <div class="spacing d-none d-sm-block" style="height: 5rem;"></div>
+  <div class="spacing d-block d-sm-none" style="height: 3rem;"></div>
+</div>
+
+<!-- Modal Section-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+
+      <div class="modal-body">
+
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+</div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End Modal Section -->
+
+<!--- End PORTFOLIO Section -->
+
+
+<!--- Start ABOUT Section -->
+<div id="about" class="offset">
+<div class="jumbotron">
+  <div class="container">
+    <h3 class="heading text-center">ABOUT ME</h3>
+    <div class="heading-underline"></div>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-5 col-lg-3 profile" style="max-width: 200px">
+            <img class="img-fluid rounded" src='./img/face.jpeg'/>
+          </div>
+          <div class="col-12 col-lg-9">
+            <blockquote class="bio">
+              <i class="fas fa-quote-left"></i>
+              Senior-year art student, future VFX compositor. My passion for Visual Effects brought me to the Savannah College of Art and Design (SCAD), where I am working on my BFA in Visual Effects. At present, I am a proficient user in Maya, Nuke, Houdini. I will continue on focusing to build skills in VFX compositing. My hobbies are video games, trading cryptocurrencies, watching films and travelling.
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="container">
+    <h3 class="heading text-center">Why Xccelerate?</h3>
+    <div class="heading-underline"></div>
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-lg-9">
+            <blockquote class="bio">
+              Every since I was exposed to the cryptocurrency world in 2017, I became mesmerized by the power of decentralized applications and censorship-resistant blockchain networks. I decided that my ulimate goal in life was to become a front-end web developer specializing in creating user interfaces for web applicaion built on blockchains with programmable smart contracts. I hope Xccelerate is my first step towards this life goal. 
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--- End ABOUT Section -->
+
+
+<!--- Start CONTACT Section -->
+<div id="contact" class="offset">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="order-2 order-xl-1 col-xl-7">
+        <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 478px">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236161.09848557058!2d113.98761619751527!3d22.352980760241152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong%20Kong!5e0!3m2!1sen!2shk!4v1593162785167!5m2!1sen!2shk"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="order-1 order-xl-2 col-xl-5">
+        <div class="contact-clean">
+            <form action="https://formspree.io/mjvaegbw" method="POST">
+                <h3 class="heading text-center">Get In Touch</h2>
+                <div class="heading-underline"></div>
+                <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+                <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+                <div class="form-group"><button class="btn btn-primary" type="submit" value="Send">send </button></div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--- End CONTACT Section -->
+
+
+<footer>
+  <div class="row justify-content-center">
+    <div class="col-md-5 text-center">
+      <div class="navbar-brand mr-0" href="#">Pon Chin Ching</a></div>
+      <p>Visual Effects Student</p>
+      <strong>Contact Info</strong>
+      <p>(852) 9362-8951<br>ponchinching@hotmail.com<p>
+      <a href="https://www.facebook.com/profile.php?id=1600664574" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.youtube.com/channel/UCtv0xJ69cwakQBWVsHktxQw" target="_blank"><i class="fab fa-youtube-square"></i></a>
+      <a href="https://github.com/MisterGalactic" target="_blank"><i class="fab fa-github-square"></i></a>
+    </div>
+
+    <hr class="socket">
+    &copy; Pon Chin Ching.
+
+  </div>
+
+</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.js" integrity="sha256-CrGkhQvJpxqJ2udFwrQCb6nHWZKajkYLxGeg5unV7Co=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        var scroll = new SmoothScroll('a[href*="#"]');
+      });
+    </script>
+
+    <script>
+      // Play when in viewport
+      $(window).on('scroll load', function(){
+        $('.responsive-vid iframe').each( function(i){
+          player.pauseVideo();
+          var scroll_position = $(window).scrollTop();
+          var bottom_of_video = $(this).offset().top + ($(this).outerHeight() / 2);
+          var bottom_of_window3 = $(window).scrollTop() + $(window).height();
+          if( bottom_of_window3 > bottom_of_video && scroll_position < bottom_of_video ) {
+            player.playVideo();
+            $('#player').css({'opacity':'1'});
+          } else {
+            player.pauseVideo();
+            $('#player').css({'opacity':'.6'});
+          }
+        });
+      });
+    </script>
+
+    <script>
+    	// 2. This code loads the IFrame Player API code asynchronously.
+    	var tag = document.createElement('script');
+
+    	tag.src = "https://www.youtube.com/iframe_api";
+    	var firstScriptTag = document.getElementsByTagName('script')[0];
+    	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    	// 3. This function creates an <iframe> (and YouTube player)
+    	//    after the API code downloads.
+    	var player;
+    	function onYouTubeIframeAPIReady() {
+    		player = new YT.Player('player', {
+              videoId: "l2tjycGbQyU", // YouTube Video ID
+              width: 1920, // Player width (in px)
+              playerVars: {
+                autoplay: 0, // Auto-play the video on load
+                controls: 0, // Show pause/play buttons in player
+                showinfo: 0, // Hide the video title
+                modestbranding: 1, // Hide the Youtube Logo
+                loop: 1, // Run the video in a loop
+                fs: 0, // Hide the full screen button
+                cc_load_policy: 0, // Hide closed captions
+                iv_load_policy: 3, // Hide the Video Annotations
+                autohide: 1, // Hide video controls when playing
+                start: 0,
+                end: 107,
+                mute: 0, // Sound Off On
+                rel: 0
+    			}
+    		});
+    	}
+    </script>
+
+    <script>
+      // Gets the video src from the data-src on each thumbnail
+      var $videoSrc;
+      $('.thumbnail').click(function() {
+          $videoSrc = $(this).data( "src" );
+      });
+      console.log($videoSrc);
+
+
+
+      // when the modal is opened autoplay it
+      $('#myModal').on('shown.bs.modal', function (e) {
+
+      // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+      $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+      })
+
+      // stop playing the youtube video when I close the modal
+      $('#myModal').on('hide.bs.modal', function (e) {
+          // a poor man's stop video
+          $("#video").attr('src',$videoSrc);
+      })
+    </script>
+
+  </body>
+</html>
